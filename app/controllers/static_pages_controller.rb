@@ -3,5 +3,9 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+    @name = "Michal"
+  end
+
+  def about
   end
 end
